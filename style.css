@@ -1,0 +1,142 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h1 span {
+    color: orange;
+}
+
+h2 {
+    color: gray;
+}
+
+.header-part {
+    display: flex;
+    height: 700px;
+    width: 75%;
+    margin-left: 200px;
+}
+
+.blog-contents {
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding: 90px 0px;
+}
+
+.blog-contents p {
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+}
+
+.blog-contents img {
+    width: 100%;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(green, tomato);
+    padding: 15px 15px;
+    border-radius: 20px;
+}
+
+.about {
+    height: 500px;
+    background-image: url(images/shapes/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recipes-section {
+    min-height: 700px;
+}
+
+.recipes-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.recipes-header h1 {
+    margin-right: 589px;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444444;
+    width: 40%;
+    margin: auto;
+}
+
+.food-section {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    background: white;
+    margin: auto;
+}
+
+.food-section img {
+    width: 100%;
+}
+
+.food-item {
+    width: 250px;
+    text-align: left;
+    margin-left: auto;
+    border: 1px solid white;
+    box-shadow: 0px 0px 15px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.food-item h2 {
+    color: black;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    border: 1px solid white;
+    box-shadow: 0px 0px 15px 0px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.media {
+    margin: auto;
+}
+
+footer {
+    height: 250px;
+    background: black;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer h1 {
+    color: white;
+}
